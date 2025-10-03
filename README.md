@@ -51,8 +51,11 @@ Navigate to the **`backend/`** directory in your first terminal window.
 
 ```bash
 # 1. Create and activate a Python virtual environment
-python -m venv venv
+python3 -m venv venv
+#for mac os
 source venv/bin/activate 
+#for windows
+.\venv\Scripts\activate.bat
 
 # 2. Install dependencies (Flask, flask-cors, firebase-admin)
 pip install -r requirements.txt
