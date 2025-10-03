@@ -1,7 +1,7 @@
 import firebase_admin
 from firebase_admin import credentials, firestore
 
-CRED_PATH = 'servie_Account_key.json' 
+CRED_PATH = 'servieAccountkey.json' 
 
 try:
     firebase_admin.get_app() 
